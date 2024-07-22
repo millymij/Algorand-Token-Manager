@@ -1,0 +1,7 @@
+Flask==3.0.3
+py_algorand_sdk==2.5.0
+pytest==8.1.1
+Requests==2.31.0
+vonage==3.13.0
+pytest==8.1.1
+ngrok==3.5.0

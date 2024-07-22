@@ -1,0 +1,26 @@
+#pragma version 2
+
+// Condition 1: Recipient Address Verification: Make sure funds are for a given shop.
+addr OOGPCELYKLWNTNUBAYP5RCKZHJJZ22F3TJXWZZOGGJO3FRMD6GFZQFWFNM
+txn Receiver
+==
+bz fail
+
+
+// Condition 3: Spending Limit in microAlgos
+txn Amount
+int 100000
+<=
+bz fail
+
+
+// If all conditions pass, approve transaction
+b pass
+
+fail:
+int 0
+return
+
+pass:
+int 1
+return

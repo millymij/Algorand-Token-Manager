@@ -1,0 +1,162 @@
+#sender-address-input {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+#s-address-input {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+#receiver-address-input {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+#amount-input {
+    margin-bottom: 10px;
+}
+
+#private-key-input {
+  width: 80%;
+  box-sizing: border-box;
+}
+
+#s-output {
+  width: 100%;
+  height: 100px;
+  margin-top: 10px;
+  display: block;
+}
+
+#sender-output {
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    display: block;
+}
+
+#receiver-output {
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    display: block;
+}
+
+#encoded-lsig-output {
+  width: 80%;
+  height: 120px;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+
+#sms-data-output {
+  width: 80%;
+  height: 240px;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+
+#decode-lsig-output {
+  width: 80%;
+  height: 50px;
+  box-sizing: border-box; 
+  margin-top: 10px;
+}
+
+#sms-notification {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+#txn-notification {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+#notification-teal {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+#decoding-notification {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+#notification {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+#signature-notification {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.label-txn {
+    font-size: 18px;
+    color: white;
+    background-color: yellowgreen;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+
+  .label {
+    margin-top: 40px;
+    font-size: 18px;
+    color: white;
+    background-color:#3498db;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display:inline-block;
+    margin-bottom: 20px;
+  }
+
+button {
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+h2 {
+  padding-top: 40px;
+}
+
+.button-home {
+  background-color: #3498db;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  margin: 10px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+#dynamic-content {
+  margin-top: 20px;
+  text-align: left;
+  display: inline-block;
+  width: 100%;
+}
